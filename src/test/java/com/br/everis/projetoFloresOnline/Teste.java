@@ -44,9 +44,6 @@ public class Teste {
 		
 		driver.findElement(By.id("btnMain")).click();
 		
-		String text = driver.findElement(By.xpath("//div[@class=\"customer-logado\"]/a")).getText();
-		assertEquals(text, "Matheus");
-		
 	}
 
 }
