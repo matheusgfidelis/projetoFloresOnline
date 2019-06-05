@@ -34,7 +34,7 @@ public class Teste {
 	@Test
 	public void testCadastro() {
 		
-		driver.findElement(By.id("email_lp")).sendKeys("matheusfidelis1478@gmail.com");
+		driver.findElement(By.id("email_lp")).sendKeys("matheusfidelis@gmail.com");
 		
 		driver.findElement(By.id("nome_lp")).sendKeys("Matheus Fidelis");
 		
