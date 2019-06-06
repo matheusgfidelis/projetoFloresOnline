@@ -16,10 +16,10 @@ public class PageHome {
 	}
 	
 	public void preencher() {
-		this.driver.findElement(By.id("email_lp")).sendKeys("matheusfidelis@gmail.com");
-		this.driver.findElement(By.id("nome_lp")).sendKeys("Matheus Fidelis");
+		this.driver.findElement(By.id("email_lp")).sendKeys("lucasgabrielsantos12345@outlook.com");
+		this.driver.findElement(By.id("nome_lp")).sendKeys("Lucas Gabriel");
 		this.driver.findElement(By.id("telefone_lp")).sendKeys("11 999999999");
-		this.driver.findElement(By.id("senha_lp")).sendKeys("123456789");
+		this.driver.findElement(By.id("senha_lp")).sendKeys("1234567890*");
 	}
 	
 	public void cadastrar() {
